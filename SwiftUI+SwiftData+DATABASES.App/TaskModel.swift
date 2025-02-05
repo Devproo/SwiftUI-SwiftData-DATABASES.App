@@ -9,7 +9,7 @@ import Foundation
 import SwiftData
 
 @Model
-class Task: Identifiable {
+class TaskModel: Identifiable {
     var id: String
     var title: String
     var isCompleted: Bool
