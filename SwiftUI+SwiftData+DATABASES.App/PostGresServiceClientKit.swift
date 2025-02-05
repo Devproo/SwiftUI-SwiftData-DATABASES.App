@@ -8,7 +8,7 @@ import Foundation
 import PostgresClientKit
 
 @Observable
-@MainActor
+
 class PostGresServiceClientKit {
     private var connection: Connection?
 
