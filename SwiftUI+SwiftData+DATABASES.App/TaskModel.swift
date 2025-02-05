@@ -1,0 +1,22 @@
+//
+//  TaskModel.swift
+//  SwiftUI+SwiftData+DATABASES.App
+//
+//  Created by ipeerless on 05/02/2025.
+//
+
+import Foundation
+import SwiftData
+
+@Model
+class TaskModel{
+    var id: String
+    var title: String
+    var isCompleted: Bool
+
+    init(id: String = UUID().uuidString, title: String, isCompleted: Bool) {
+        self.id = id
+        self.title = title
+        self.isCompleted = isCompleted
+    }
+}
